@@ -1,0 +1,32 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.11/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.11",
+    "version": "1.0.0",
+    "id": "YOUR-BOT-ID",
+    "packageName": "com.yourcompany.yourbot",
+    "developer": {
+        "name": "Destin Guan",
+        "websiteUrl": "https://www.nineunited.com",
+        "privacyUrl": "https://www.nineunited.com/privacy",
+        "termsOfUseUrl": "https://www.nineunited.com/terms"
+    },
+    "description": {
+        "short": "ChatGPT 4 Teams Bot",
+        "full": "Makes you work harder"
+    },
+    "icons": {
+        "outline": "outline.png",
+        "color": "color.png"
+    },
+    "bots": [
+        {
+            "botId": "YOUR-BOT-ID",
+            "scopes": [
+                "personal",
+                "team"
+            ],
+            "supportsFiles": false,
+            "isNotificationOnly": false
+        }
+    ]
+}
